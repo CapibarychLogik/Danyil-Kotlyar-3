@@ -1,1 +1,54 @@
+body {
+    font-family: sans-serif;
+}
 
+h1 {
+    font-size: 15px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav {
+    border-top: 3px solid royalblue;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 3px solid royalblue;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: navy;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.product {
+    text-align: center;
+    padding: 10px;
+    border: 5px double orange;
+    border-bottom: 5px double orange;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: bisque;
+    text-decoration: none;
+    float: left;
+    margin-left: 100px;
+    width: 200px;
+}
